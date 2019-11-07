@@ -4,8 +4,7 @@ var pizza ={
     pizza4: "mushroom",
     pizza2: {
         pizza1: "cheese"
-    },
-    pizza1:"whatever"
+    }
     
 }
 
@@ -17,4 +16,4 @@ uniqueCount = Object.keys(pizza) //creates array of keys
     uniqueCount.forEach(function(i) { count[i] = (count[i]||0) +1;}); 
     console.log(count);
 
-    //returns
+    //returns {pizza1: 1, pizza3: 1, pizza4: 1, pizza2: 1}
